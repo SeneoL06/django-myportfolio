@@ -1,0 +1,210 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LEONES</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="{% static '/css/main.css'  %} //fonts.googleapis.com/css?family=Merriweather" />
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<!-- profile -->
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profile.png' %}">
+					
+					<h4><br><b>John Larry Leones</b></h4>
+					<ul>
+						<li>larryleones24@gmail.com</li>
+						<li>09494784760</li>
+						<li>Blk 22 Lot 16 Brgy. Acacia Silang, Cavite</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-secondary">
+					<h4><b><br>Junior Python Developer<br></b></h4>
+					<hr>
+					<p><br>I consider myself a Game Developer when I was a college student because most of my school projects were game applications then one day I saw Web applications raising on the internet since I knew basic python. I convince myself I`ll make a web app using python and I started 2020 in November and enjoying it so far.<br><br><br></p>
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/profile.php?id=100003752418570">
+							<img class="social rounded-circle" src="{% static 'images/facebook.png' %}">
+						</a></li>
+						<li><img class="social rounded-circle" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social rounded-circle" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social rounded-circle" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="card card-body h-100 border-light">
+					<h5><b>EXPERIENCE / CERTIFICATES</b></h5>
+					<hr>
+
+					<h6><b>UNITECH, University of PERPETUAL - GMA</b></h6>
+					<p>NOVEMBER 2012 - FEBRUARY 2013</p>
+					<p>Certificate of Completion - Computer Literacy Training Program</p>
+				
+					<h6><b>Cavite State University, Carmona Campus</b></h6>
+					<p>OCTOBER 2019</p>
+					<p>Certification of Technical Support Fundamentals and Graphic design seminar.</p>
+
+					<h6><b>Gleent Inc., Cabuyao, Laguna</b></h6>
+					<p>JUNE 2019 - JULY 2019</p>
+					<p>200 hours of internship as a Front-end Developer, web designing in WordPress</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card card-body h-100 border-light">
+					<h5><b>SOFT SKILLS</b></h5>
+					<hr>
+					<p>Willingness to learn and able to welcome and adapt to changing responsibilities.</p>
+					<p>Focus on the project through the end goals and loyally oriented to the job.</p>
+					<p>Always respect other ideas.</p>
+					<p>Always follow rules.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100 border-light">
+					<h5><b>EDUCATION</b></h5>
+					<hr>
+					<h6><b>Cavite State University, Carmona Campus</b></h6>
+					<p>JUNE 2015 - JUNE 2020</p>
+					<p>Bachelor of Science in Computer Science</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100 border-light " id="progskills-wrapper">
+					<h5><b>PROGRAMMING / COMPUTER SKILLS</b></h5>
+					<hr>
+					<dl>
+						<dt>Python</dt>
+						<dd>-Django, TKInter</dd>
+						<dt>Java</dt>
+						<dd>-Core Java, Spring</dd>
+						<dt>Adobe Photoshop CS6</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="card card-body h-100 border-light">
+				<h5><b>My Short Term Goals</b></h5>
+				<hr>
+				
+				<p>As junior developer, aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself. I’m ready to learn big like collaborating and sharing ideas with others.</p>
+
+			</div>
+		</div>
+		<br>
+		<!-- projects -->
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-light">
+					<center>
+						<a href="https://github.com/SeneoL06/django-web-app.git">
+						<img id="profile-pic" src="{% static 'images/app.jpg' %}">
+					</a>
+					</center>
+					<hr>
+					<h6><center>
+						<a href="https://github.com/SeneoL06/django-web-app.git">
+							Basic Django WebApp
+						</a>
+					</center></h6>
+										
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-light">
+				<center>
+						<a href="https://github.com/SeneoL06/django-web-app.git">
+						<img id="profile-pic" src="{% static 'images/todo.png' %}">
+						</a>
+					</center>
+					<hr>
+					<h6><center>
+						<a href="https://github.com/SeneoL06/django-reactjs-todolist.git">
+							Django-ReactJS Todolist
+						</a>
+					</center></h6>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-light center">
+					<center>
+						<a href="https://github.com/SeneoL06/django-web-app.git">
+						<img id="profile-pic" src="{% static 'images/stud.png' %}">
+						</a>
+					</center>
+					<hr>
+					<h6><center>
+						<a href="hhttps://github.com/SeneoL06/StudentGrades.git">
+							Student Grading System
+						</a>
+					</center></h6>
+
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-light">
+					<center>
+						<a href="https://github.com/SeneoL06/django-web-app.git">
+						<img id="profile-pic" src="{% static 'images/gate.png' %}">
+						</a>
+					</center>
+					<hr>
+					<h6><center>
+						<a href="https://github.com/SeneoL06/gate-pass-python-project.git">
+							TKInter Gate Pass System 
+						</a>
+					</center></h6>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="card card-body h-100 border-light">
+
+				<dl>
+					<dt>See more in Github Portfolio</dt>
+					<dl>
+						<a href="https://github.com/SeneoL06?tab=repositories">
+							https://github.com/SeneoL06?tab=repositories
+						</a>
+					</dl>
+				</dl>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
